@@ -9,6 +9,7 @@
             Console.WriteLine("2. LeapYear ");
             Console.WriteLine("3. Power Of 2 ");
             Console.WriteLine("4. Odd And Even ");
+            Console.WriteLine("5. Largest number ");
             Console.WriteLine("0. Exit ");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
@@ -32,6 +33,11 @@
                     Console.WriteLine("4. Odd And Even ");
                     OddEven oddeve = new OddEven();
                     oddeve.Read();
+                    break;
+                case 5:
+                    Console.WriteLine("5. Largest number ");
+                    BigNumb num = new BigNumb();
+                    num.Read();
                     break;
                 default:
                     break;
