@@ -11,6 +11,7 @@
             Console.WriteLine("4. Odd And Even ");
             Console.WriteLine("5. Largest number ");
             Console.WriteLine("6. Swapping number ");
+            Console.WriteLine("7. Harmonic Number ");
             Console.WriteLine("0. Exit ");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
@@ -44,6 +45,11 @@
                     Console.WriteLine("6. Swapping number ");
                     SwapNumb swap = new SwapNumb();
                     swap.Read();
+                    break;
+                case 7:
+                    Console.WriteLine("7. Harmonic Number ");
+                    HarmonicNumb harmonic = new HarmonicNumb();
+                    harmonic.Read();
                     break;
                 default:
                     break;
