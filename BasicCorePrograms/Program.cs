@@ -12,6 +12,7 @@
             Console.WriteLine("5. Largest number ");
             Console.WriteLine("6. Swapping number ");
             Console.WriteLine("7. Harmonic Number ");
+            Console.WriteLine("8. Checking Alphabet or Not ");
             Console.WriteLine("0. Exit ");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
@@ -50,6 +51,11 @@
                     Console.WriteLine("7. Harmonic Number ");
                     HarmonicNumb harmonic = new HarmonicNumb();
                     harmonic.Read();
+                    break;
+                case 8:
+                    Console.WriteLine("8. Checking Alphabet or Not ");
+                    Alphabet alphabet = new Alphabet();
+                    alphabet.Read();
                     break;
                 default:
                     break;
