@@ -13,6 +13,7 @@
             Console.WriteLine("6. Swapping number ");
             Console.WriteLine("7. Harmonic Number ");
             Console.WriteLine("8. Checking Alphabet or Not ");
+            Console.WriteLine("9. Checking Remainder and Quotient ");
             Console.WriteLine("0. Exit ");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
@@ -56,6 +57,11 @@
                     Console.WriteLine("8. Checking Alphabet or Not ");
                     Alphabet alphabet = new Alphabet();
                     alphabet.Read();
+                    break;
+                case 9:
+                    Console.WriteLine("9. Checking Remainder and Quotient ");
+                    Remainder remainder = new Remainder();
+                    remainder.Read();
                     break;
                 default:
                     break;
